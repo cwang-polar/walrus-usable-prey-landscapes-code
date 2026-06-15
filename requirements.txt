@@ -1,0 +1,16 @@
+numpy
+pandas
+geopandas
+shapely
+matplotlib
+pykrige
+xarray
+pyproj
+scipy
+statsmodels
+seaborn
+openpyxl
+netCDF4
+h5netcdf
+cplex
+

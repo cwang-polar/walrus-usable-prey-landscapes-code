@@ -1,0 +1,20 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+~$*.docx
+
+# Local data and generated outputs are intentionally excluded from the
+# peer-review code repository.
+data/
+outputs/
+*.nc
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+

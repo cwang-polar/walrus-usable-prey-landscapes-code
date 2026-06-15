@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "Analysis code for Pacific walrus usable prey landscapes"
+authors:
+  - family-names: Wang
+    given-names: Chao
+  - family-names: Cooper
+    given-names: Lee W.
+  - family-names: Schipper
+    given-names: Jan
+  - family-names: Grebmeier
+    given-names: Jacqueline M.
+version: "peer-review"
+date-released: "2026-06-15"
