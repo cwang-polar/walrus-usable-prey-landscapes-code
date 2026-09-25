@@ -1,0 +1,7 @@
+scenario,sic_low,sic_high,sic_high_weight,sit_low,sit_high,sit_low_weight,sit_mid_weight,sit_high_weight,good_cutoff,d_core_km,d_max_km,nonlocal_multiplier
+baseline,0.15,0.8,0.7,0.2,0.3,0.1,0.5,1.0,0.6,15.0,50.0,0.6
+distance_narrow_10_40,0.15,0.8,0.7,0.2,0.3,0.1,0.5,1.0,0.6,10.0,40.0,0.6
+distance_broad_20_60,0.15,0.8,0.7,0.2,0.3,0.1,0.5,1.0,0.6,20.0,60.0,0.6
+sic_sit_lenient,0.1,0.85,0.8,0.15,0.25,0.1,0.5,1.0,0.5,15.0,50.0,0.6
+sic_sit_strict,0.2,0.75,0.6,0.25,0.4,0.1,0.5,1.0,0.7,15.0,50.0,0.6
+nonlocal_multiplier_0p37,0.15,0.8,0.7,0.2,0.3,0.1,0.5,1.0,0.6,15.0,50.0,0.37

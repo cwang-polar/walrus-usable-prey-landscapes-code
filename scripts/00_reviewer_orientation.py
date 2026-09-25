@@ -12,6 +12,10 @@ MODULES = [
     ("04_run_capacity_optimization.py", "Minimum-area optimization and sensitivity analyses"),
     ("05_temperature_auxiliary_analysis.py", "Auxiliary temperature regressions and mixed-effects models"),
     ("06_make_figures_and_tables.py", "Manuscript figure and appendix table generation map"),
+    ("07_kriging_leave_one_grid_cell_out.py", "Kriging LOOCV and Appendix Table S7"),
+    ("08_ice_internal_parameter_surfaces.py", "Six internal ice-accessibility scenarios and Table S5"),
+    ("09_ice_internal_parameter_optimization.py", "CPLEX sensitivity curves and Table S6"),
+    ("10_verify_reported_results.py", "Data-free consistency checks for revision results"),
 ]
 
 
@@ -25,6 +29,7 @@ def main() -> None:
     print()
     print("See figure_table_code_map.md for final manuscript figure/table mapping.")
     print("Data files are not included in this peer-review code repository.")
+    print("Compact non-coordinate revision summaries are included in results/.")
     print("Figures 1 and 2 were generated outside Python (GIS and PowerPoint).")
 
 

@@ -10,6 +10,6 @@ authors:
     given-names: Jan
   - family-names: Grebmeier
     given-names: Jacqueline M.
-version: "peer-review"
-date-released: "2026-06-15"
+version: "peer-review-revision-1"
+date-released: "2026-09-25"
 repository-code: "https://github.com/cwang-polar/walrus-usable-prey-landscapes-code"
