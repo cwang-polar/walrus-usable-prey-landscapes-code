@@ -75,6 +75,12 @@ the reviewer-facing implementation for each analysis stage.
 
 Figures 1 and 2 are exceptions: Figure 1 was prepared in GIS software, and Figure 2 was drawn in PowerPoint. The Python code documents these outputs but does not recreate them.
 
+For Figure 3, interval-level uncertainty was calculated from 200 bootstrap
+resamples of station observations within each analysis interval, using random
+seed 123. Taxon-specific prey surfaces were reconstructed for each resample,
+and the 2.5th and 97.5th percentiles of integrated total prey biomass define
+the plotted 95% bootstrap confidence intervals.
+
 ## Dependencies
 
 The analysis was implemented in Python 3.10. Main Python packages are listed in `requirements.txt`.

@@ -40,6 +40,10 @@ TAXA_FINAL_COLUMNS = (
     "sipuncula_avg_final",
 )
 
+# Settings used to generate the bootstrap summaries shown in manuscript Figure 3.
+FIGURE_3_BOOTSTRAP_REPLICATES = 200
+FIGURE_3_BOOTSTRAP_RANDOM_STATE = 123
+
 
 DBO_REGIONS: dict[str, list[tuple[float, float]]] = {
     "DBO1": [
@@ -383,7 +387,7 @@ def bootstrap_total_biomass_for_window(
     df_period: pd.DataFrame,
     year_label: str,
     grid: GridSpec,
-    n_boot: int = 200,
+    n_boot: int = FIGURE_3_BOOTSTRAP_REPLICATES,
     min_points: int = 10,
     random_state: int | None = None,
 ) -> np.ndarray:
@@ -410,9 +414,9 @@ def bootstrap_biomass_timeseries(
     df_site: pd.DataFrame,
     windows: Iterable[tuple[int, int]],
     grid: GridSpec,
-    n_boot: int = 200,
+    n_boot: int = FIGURE_3_BOOTSTRAP_REPLICATES,
     min_points: int = 10,
-    random_state: int = 42,
+    random_state: int = FIGURE_3_BOOTSTRAP_RANDOM_STATE,
 ) -> tuple[pd.DataFrame, dict[str, np.ndarray]]:
     """Return mean and 95 percent bootstrap intervals for each window."""
 

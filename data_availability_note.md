@@ -7,7 +7,7 @@ coordinates, or cell-level cross-validation predictions.
 
 ## Data sources cited in the manuscript
 
-- Station-level benthic biomass data: NSF Arctic Data Center / Distributed Biological Observatory data portal. The manuscript cites the dataset-specific temporary DOI for Grebmeier & Cooper (2026).
+- Station-level benthic biomass data: NSF Arctic Data Center / Distributed Biological Observatory data portal. The synthesis time-series dataset used in the manuscript is Grebmeier & Cooper (2026), https://doi.org/10.18739/A2BN9X533.
 - Ship-traffic data: public satellite AIS products cited in the manuscript and Appendix S1.
 - Sea-ice and oceanographic products: GLORYS12 and neXtSIM-F products cited in the manuscript and Appendix S1.
 - Land boundary data: Natural Earth land polygon data used for land-distance calculations.
@@ -26,4 +26,4 @@ The repository does not promise one-command reproduction of all results during p
 
 ## Planned final archive
 
-Upon manuscript acceptance, processed input tables, derived gridded prey surfaces, ice-accessibility fields, ship-exposure fields, stressor-adjusted biomass layers, model outputs, and publication-ready code will be archived in a permanent public repository with a persistent identifier.
+Upon manuscript acceptance, processed input tables, derived gridded prey surfaces, ice-accessibility fields, ship-exposure fields, stressor-adjusted biomass layers, model outputs, associated metadata, and the code version of record will be archived in Zenodo with a persistent DOI.
